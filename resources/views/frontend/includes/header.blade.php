@@ -23,9 +23,9 @@
                         <a href="{{route('home')}}" class="active">Home</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="{{route('contact.us')}}">Contact</a>
                     </li>
-                    <li class="hidden md:block">
+                    {{-- <li class="hidden md:block">
                         <div class="dropdown inline-block relative">
                             <button class="  font-semibold py-2 px-4 rounded inline-flex items-center">
                               <span class=" text-[20px] mr-1 text-white md:text-black ">Membership</span>
@@ -37,7 +37,7 @@
                               <div class=""><button class="rounded-b  py-2 px-4 text-white block whitespace-no-wrap" href="#">Three </button></div>
                             </div>
                           </div>
-                    </li>
+                    </li> --}}
                     <li>
                         <div class="md:flex gap-2 hidden">
                             <form class="flex  items-center " action="#">

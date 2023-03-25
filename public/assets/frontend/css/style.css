@@ -7,7 +7,7 @@ body{
   font-family: 'Inter', sans-serif;}
 
 .bgImg {
-    background-image: url(../assets/contact.jpeg) !important;
+    background-image: url(../../../assets/frontend/images/contact.jpeg) !important;
     background-repeat: no-repeat;
     background-size: cover;
 }

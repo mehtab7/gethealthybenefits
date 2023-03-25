@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basho</title>
+    <title>Get Healthy Benefits</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
@@ -24,7 +24,7 @@
     <main class="py-2 md:py-5 lg:py-10  ">
         <div class="block m-auto">
             <h1 class="text-2xl md:text-4xl lg:text-8xl text-center md:text-left  ">
-                <span class="font-bold">Hey, we're Basho.</span>See Our thoughts , stories and ideas
+                <span class="font-bold">Get Healthy Benefits.</span>See Our thoughts , stories and ideas
             </h1>
         </div>
         <div class="py-10 md:flex gap-5 border-b border-[#ceced0] ">

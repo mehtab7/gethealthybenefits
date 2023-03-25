@@ -18,6 +18,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::get('/contact-us', [HomeController::class, 'contactUs'])->name('contact.us');
 Route::get('/privacy-policy', [HomeController::class, 'privacy'])->name('privacy-policy');
 Route::get('blogs/{slug}', [HomeController::class, 'getBlog']);
 Route::get('admin/login', [AuthController::class, 'showAdminLoginForm'])->name('admin.login');
@@ -46,5 +47,5 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function 
 //     // })->name('admin.dashboard');
 
 //     // PACKAGES
-    
+
 // });

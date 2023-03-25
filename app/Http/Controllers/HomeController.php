@@ -19,9 +19,14 @@ class HomeController extends Controller
     {
         $blog = Blog::where('slug', $slug)->first();
         $oldBlog=Blog::where('created_at','<',$blog->created_at)->orderBy('created_at','desc')->first();
-        
+
         $blogs = Blog::where('id','!=',$blog->id)->get();
         // return $blog;
         return view('frontend.content.blog-page',compact('blog','blogs','oldBlog'));
+    }
+
+    public function contactUs(Request $request)
+    {
+        return view('frontend.content.contact-us');
     }
 }
